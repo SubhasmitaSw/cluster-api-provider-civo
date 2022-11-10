@@ -1,0 +1,12 @@
+apiVersion: infrastructure.cluster.x-k8s.io/v1alpha1
+kind: CivoCluster
+metadata:
+  labels:
+    app.kubernetes.io/name: civocluster
+    app.kubernetes.io/instance: civocluster-sample
+    app.kubernetes.io/part-of: cluster-api-provider-civo
+    app.kuberentes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: cluster-api-provider-civo
+  name: civocluster-sample
+spec:
+  # TODO(user): Add fields here
